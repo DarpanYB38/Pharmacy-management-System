@@ -15,19 +15,16 @@ Copy code
 git clone https://github.com/DarpanYB38/pharmacy-management-system.git
 Install dependencies:
 
-Copy code
-pip install -r requirements.txt
+python should be installed
+then pip install django 
 Apply database migrations:
 
-Copy code
 python manage.py migrate
 Create a superuser (admin):
 
-Copy code
 python manage.py createsuperuser
 Run the development server:
 
-Copy code
 python manage.py runserver
 Access the application at http://localhost:8000.
 
