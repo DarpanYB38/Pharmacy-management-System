@@ -40,8 +40,6 @@ Contributions are welcome! Please follow the Contributing Guidelines.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgements
-Django - The web framework used
-Bootstrap - Frontend framework
-Font Awesome - Icons
-
- 
+Django - The web framework used<br>
+Bootstrap - Frontend framework<br>
+Font Awesome - Icons<br>
