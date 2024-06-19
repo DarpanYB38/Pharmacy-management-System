@@ -7,26 +7,55 @@ Inventory Management: Keep track of available medicines, their quantity, and exp
 Sales Management: Record sales transactions and generate invoices.
 Customer Management: Store customer information and purchase history.
 User Authentication: Secure login and registration system for admin and staff members.
-# Installation
-Clone the repository:
+## Installation Instructions
 
-bash
-Copy code
+Follow these steps to set up and run the Pharmacy Management System on your local machine.
+
+### 1. Clone the Repository
+
+Open your terminal and run the following command to clone the repository:
+
+```bash
 git clone https://github.com/DarpanYB38/pharmacy-management-system.git
-Install dependencies:
+```
 
-python should be installed
-then pip install django 
-Apply database migrations:
+### 2. Install Dependencies
 
+Ensure Python is installed on your machine. Then, navigate to the project directory and install the required dependencies:
+
+```bash
+pip install django
+```
+
+### 3. Apply Database Migrations
+
+Run the following command to apply database migrations:
+
+```bash
 python manage.py migrate
-Create a superuser (admin):
+```
 
+### 4. Create a Superuser (Admin)
+
+Create a superuser to access the admin panel by running:
+
+```bash
 python manage.py createsuperuser
-Run the development server:
+```
 
+Follow the prompts to set up your superuser credentials.
+
+### 5. Run the Development Server
+
+Start the development server with the following command:
+
+```bash
 python manage.py runserver
-Access the application at http://localhost:8000.
+```
+
+### 6. Access the Application
+
+Open your web browser and go to [http://localhost:8000](http://localhost:8000) to access the application.
 
 # Usage
 Log in as admin using the credentials created in step 4.
